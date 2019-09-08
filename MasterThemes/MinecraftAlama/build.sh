@@ -21,9 +21,9 @@ if [ ! -f "artisan" ]; then
     zip -r PterodactylBackup-$(date +"%Y-%m-%d").zip public resources 2> /dev/null
 
     echo "Downloading the Theme you picked"
-    mkdir -p tempdown && cd tempdown && git clone https://github.com/TheFonix/Pterodactyl-Themes.git .
-    cp -r MasterThemes/MinecraftMadness/public ..
-    cp -r MasterThemes/MinecraftMadness/resources ..
+    mkdir -p tempdown && cd tempdown && git clone https://github.com/Maxime48/Pterodactyl-Themes.git .
+    cp -r MasterThemes/MinecraftAlama/public ..
+    cp -r MasterThemes/MinecraftAlama/resources ..
 
     echo "Files have been copied over!"
     sleep 2
